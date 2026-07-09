@@ -76,7 +76,7 @@ class GCPComputeClient:
         source_disk_image = image_response.uri
 
         # Configure the machine
-        machine_type = "zones/%s/machineTypes/n1-standard-4" % ncc_info['zone']
+        machine_type = "zones/%s/machineTypes/n1-standard-1" % ncc_info['zone']
         metadata = {
 
             "items": [
